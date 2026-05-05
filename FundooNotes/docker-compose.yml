@@ -1,0 +1,171 @@
+version: "3.8"
+
+services:
+  # ─────────────────────────────────────────────────────────
+  # Infrastructure
+  # ─────────────────────────────────────────────────────────
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: fundoo-sqlserver
+    environment:
+      SA_PASSWORD: "StrongPass@123"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    healthcheck:
+      test: /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "StrongPass@123" -C -Q "SELECT 1" || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  redis:
+    image: redis:7-alpine
+    container_name: fundoo-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: fundoo-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: myuser
+      RABBITMQ_DEFAULT_PASS: mypassword
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+  # ─────────────────────────────────────────────────────────
+  # Application Services
+  # ─────────────────────────────────────────────────────────
+  user-service:
+    build:
+      context: .
+      dockerfile: src/Services/UserService.API/Dockerfile
+    container_name: fundoo-user-service
+    ports:
+      - "5001:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8080"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=master;User Id=sa;Password=StrongPass@123;TrustServerCertificate=True;Encrypt=False;"
+      JwtSettings__Secret: "super_secret_key_12345_very_long_and_secure"
+      JwtSettings__Issuer: "FundooApp"
+      JwtSettings__Audience: "FundooUsers"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    restart: on-failure
+
+  notes-service:
+    build:
+      context: .
+      dockerfile: src/Services/NotesService/NotesService.API/Dockerfile
+    container_name: fundoo-notes-service
+    ports:
+      - "5002:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8080"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=master;User Id=sa;Password=StrongPass@123;TrustServerCertificate=True;Encrypt=False;"
+      JwtSettings__Secret: "super_secret_key_12345_very_long_and_secure"
+      JwtSettings__Issuer: "FundooApp"
+      JwtSettings__Audience: "FundooUsers"
+      Dapr__HttpEndpoint: ""
+      Dapr__StateStoreName: ""
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    restart: on-failure
+
+  labels-service:
+    build:
+      context: .
+      dockerfile: src/Services/LabelsService.API/Dockerfile
+    container_name: fundoo-labels-service
+    ports:
+      - "5003:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8080"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=master;User Id=sa;Password=StrongPass@123;TrustServerCertificate=True;Encrypt=False;"
+      JwtSettings__Secret: "super_secret_key_12345_very_long_and_secure"
+      Dapr__HttpEndpoint: ""
+      Dapr__NotesAppId: "notes-service"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    restart: on-failure
+
+  collaborator-service:
+    build:
+      context: .
+      dockerfile: src/Services/CollaboratorService.API/Dockerfile
+    container_name: fundoo-collaborator-service
+    ports:
+      - "5004:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8080"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=master;User Id=sa;Password=StrongPass@123;TrustServerCertificate=True;Encrypt=False;"
+      JwtSettings__Secret: "super_secret_key_12345_very_long_and_secure"
+      JwtSettings__Issuer: "FundooApp"
+      JwtSettings__Audience: "FundooUsers"
+      Dapr__PubSubName: "rabbitmq-pubsub"
+      Dapr__CollaboratorInvitationTopic: "collaborator-invitations"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    restart: on-failure
+
+  email-service:
+    build:
+      context: .
+      dockerfile: src/Services/EmailService.API/Dockerfile
+    container_name: fundoo-email-service
+    ports:
+      - "5005:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:8080"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    restart: on-failure
+
+  api-gateway:
+    build:
+      context: .
+      dockerfile: src/ApiGateway/Dockerfile
+    container_name: fundoo-api-gateway
+    ports:
+      - "7001:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Docker"
+      ASPNETCORE_URLS: "http://+:8080"
+      JwtSettings__Secret: "super_secret_key_12345_very_long_and_secure"
+      JwtSettings__Issuer: "FundooApp"
+      JwtSettings__Audience: "FundooUsers"
+    depends_on:
+      - user-service
+      - notes-service
+      - labels-service
+      - collaborator-service
+    restart: on-failure
+
+volumes:
+  sqlserver-data:

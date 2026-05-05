@@ -1,0 +1,36 @@
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/bin/Debug/net8.0/LabelsService.Application.deps.json
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/bin/Debug/net8.0/LabelsService.Application.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/bin/Debug/net8.0/LabelsService.Application.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/bin/Debug/net8.0/LabelsService.Domain.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/bin/Debug/net8.0/LabelsService.Domain.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/LabelsService.Application.csproj.AssemblyReference.cache
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/LabelsService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/LabelsService.Application.AssemblyInfoInputs.cache
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/LabelsService.Application.AssemblyInfo.cs
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/LabelsService.Application.csproj.CoreCompileInputs.cache
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/LabelsSe.B1804705.Up2Date
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/LabelsService.Application.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/refint/LabelsService.Application.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/LabelsService.Application.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/ref/LabelsService.Application.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/bin/Debug/net8.0/SharedLibrary.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/bin/Debug/net8.0/SharedLibrary.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/LabelsService.Application/obj/Debug/net8.0/LabelsService.Application.sourcelink.json
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\bin\Debug\net8.0\LabelsService.Application.deps.json
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\bin\Debug\net8.0\LabelsService.Application.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\bin\Debug\net8.0\LabelsService.Application.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\bin\Debug\net8.0\LabelsService.Domain.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\bin\Debug\net8.0\SharedLibrary.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\bin\Debug\net8.0\LabelsService.Domain.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\bin\Debug\net8.0\SharedLibrary.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\LabelsService.Application.csproj.AssemblyReference.cache
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\LabelsService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\LabelsService.Application.AssemblyInfoInputs.cache
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\LabelsService.Application.AssemblyInfo.cs
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\LabelsService.Application.csproj.CoreCompileInputs.cache
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\LabelsService.Application.sourcelink.json
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\LabelsSe.B1804705.Up2Date
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\LabelsService.Application.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\refint\LabelsService.Application.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\LabelsService.Application.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\LabelsService.Application\obj\Debug\net8.0\ref\LabelsService.Application.dll

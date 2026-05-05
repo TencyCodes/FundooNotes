@@ -1,0 +1,26 @@
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/bin/Debug/net8.0/SharedLibrary.deps.json
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/bin/Debug/net8.0/SharedLibrary.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/bin/Debug/net8.0/SharedLibrary.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/obj/Debug/net8.0/SharedLibrary.csproj.AssemblyReference.cache
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/obj/Debug/net8.0/SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/obj/Debug/net8.0/SharedLibrary.AssemblyInfoInputs.cache
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/obj/Debug/net8.0/SharedLibrary.AssemblyInfo.cs
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/obj/Debug/net8.0/SharedLibrary.csproj.CoreCompileInputs.cache
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/obj/Debug/net8.0/SharedLibrary.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/obj/Debug/net8.0/refint/SharedLibrary.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/obj/Debug/net8.0/SharedLibrary.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/obj/Debug/net8.0/ref/SharedLibrary.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/SharedLibrary/obj/Debug/net8.0/SharedLibrary.sourcelink.json
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\bin\Debug\net8.0\SharedLibrary.deps.json
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\bin\Debug\net8.0\SharedLibrary.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\bin\Debug\net8.0\SharedLibrary.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\obj\Debug\net8.0\SharedLibrary.csproj.AssemblyReference.cache
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\obj\Debug\net8.0\SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\obj\Debug\net8.0\SharedLibrary.AssemblyInfoInputs.cache
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\obj\Debug\net8.0\SharedLibrary.AssemblyInfo.cs
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\obj\Debug\net8.0\SharedLibrary.csproj.CoreCompileInputs.cache
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\obj\Debug\net8.0\SharedLibrary.sourcelink.json
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\obj\Debug\net8.0\SharedLibrary.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\obj\Debug\net8.0\refint\SharedLibrary.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\obj\Debug\net8.0\SharedLibrary.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\SharedLibrary\obj\Debug\net8.0\ref\SharedLibrary.dll

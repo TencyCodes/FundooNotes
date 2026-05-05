@@ -1,0 +1,40 @@
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/bin/Debug/net8.0/NotesService.Infrastructure.deps.json
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/bin/Debug/net8.0/NotesService.Infrastructure.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/bin/Debug/net8.0/NotesService.Infrastructure.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/bin/Debug/net8.0/NotesService.Application.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/bin/Debug/net8.0/NotesService.Domain.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/bin/Debug/net8.0/NotesService.Application.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/bin/Debug/net8.0/NotesService.Domain.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/NotesService.Infrastructure.csproj.AssemblyReference.cache
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/NotesService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/NotesService.Infrastructure.AssemblyInfoInputs.cache
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/NotesService.Infrastructure.AssemblyInfo.cs
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/NotesService.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/NotesSer.E02FD9D9.Up2Date
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/NotesService.Infrastructure.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/refint/NotesService.Infrastructure.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/NotesService.Infrastructure.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/ref/NotesService.Infrastructure.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/bin/Debug/net8.0/SharedLibrary.dll
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/bin/Debug/net8.0/SharedLibrary.pdb
+/Users/karthikeyaraparla/FundooNotes/src/Services/NotesService/NotesService.Infrastructure/obj/Debug/net8.0/NotesService.Infrastructure.sourcelink.json
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\bin\Debug\net8.0\NotesService.Infrastructure.deps.json
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\bin\Debug\net8.0\NotesService.Infrastructure.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\bin\Debug\net8.0\NotesService.Infrastructure.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\bin\Debug\net8.0\NotesService.Application.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\bin\Debug\net8.0\NotesService.Domain.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\bin\Debug\net8.0\SharedLibrary.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\bin\Debug\net8.0\NotesService.Application.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\bin\Debug\net8.0\NotesService.Domain.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\bin\Debug\net8.0\SharedLibrary.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\NotesService.Infrastructure.csproj.AssemblyReference.cache
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\NotesService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\NotesService.Infrastructure.AssemblyInfoInputs.cache
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\NotesService.Infrastructure.AssemblyInfo.cs
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\NotesService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\NotesService.Infrastructure.sourcelink.json
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\NotesSer.E02FD9D9.Up2Date
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\NotesService.Infrastructure.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\refint\NotesService.Infrastructure.dll
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\NotesService.Infrastructure.pdb
+C:\kdrama\New folder\PORTFOLIO PROJECTS\FUNDOO\FundooNotes 2\FundooNotes\src\Services\NotesService\NotesService.Infrastructure\obj\Debug\net8.0\ref\NotesService.Infrastructure.dll
